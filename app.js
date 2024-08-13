@@ -1,6 +1,6 @@
 // PUT YOUR CODE HERE
 
-let play = gsap.timeline({ ease: 'linear.out', paused: true, repeat: -1 })
+let play = gsap.timeline({ ease: 'linear.out', repeat: -1 })
 
 play.from('.red', { x: -200, y: -200, duration: 0.5, delay: 1 })
     .from('.green', { x: 200, y: -200, duration: 0.5 })
